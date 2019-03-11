@@ -28,16 +28,16 @@ Variable Rules:
 # Name = 'Jessus'     #str
 # is_Red = True       #bool
 
-#Multiple assignment
+#**Multiple assignment**
 x, Y, Name, is_Red = (14, 3.6, 'Carlos', False)
 
-#Basic Math
+#**Basic Math**
 w = x + Y
 
 print('Hi')
 print(x, Y, Name, is_Red, w)
 
-#Type and casting
+#**Type and casting**
 print(type(x), type(Y), type(Name), type(is_Red), type(w))
 
 w = str(w)
