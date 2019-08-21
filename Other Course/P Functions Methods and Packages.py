@@ -26,3 +26,12 @@ print(familia.index("Isela"))
 familia.append("yo")
 familia.append(1.40)
 print(familia)
+
+#import numpy
+import numpy as np
+#from numpy import array
+#e = numpy.array([1, 2, 3])
+e = np.array([1, 2, 3])
+#e = array([1, 2, 3])
+print(e)
+
